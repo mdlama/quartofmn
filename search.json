@@ -1,0 +1,55 @@
+[
+  {
+    "objectID": "extensions.html",
+    "href": "extensions.html",
+    "title": "Useful Extensions",
+    "section": "",
+    "text": "HTML\n\nHTML\n\n\nName\nDescription\n\n\n\n\nbluesky-comments\nQuarto Shortcode Extension to Embed Comments from Bluesky and add Bluesky-powered comment sections for websites and HTML outputs\n\n\nelevator\nShortcode for using Elevator.js in HTML documents\n\n\nembedio\nVariety of shortcodes for including files and content in HTML documents\n\n\nlightbox\nCreate lightbox treatments for images in your HTML documents (see also the built-in functionality)\n\n\nmodal\nA Quarto extension providing a simple way to create Bootstrap modals in your HTML documents\n\n\nnutshell\nEmbed Nutshell expandable explanations in HTML documents\n\n\nremember\nAn extension for Quarto to save and restore navigation position across page visits for both HTML documents and Reveal.js presentations\n\n\nsocial-embeds\nEmbed content from across the web into HTML documents using a shortcode\n\n\nsocial-share\nAdd buttons to share articles on various social media platforms\n\n\n\n\n\nCoding\n\nCoding\n\n\nName\nDescription\n\n\n\n\ncode-appendix\nA lua filter to auto-generate an appendix from code chunks\n\n\noutput-styling\nStyle computational output, errors, warnings, and messages in HTML documents\n\n\npyodide\nEmbed Pyodide in HTML documents to enable interactive Python code cells without the need for a Python server\n\n\nquarto-live\nWebAssembly powered ‘live’ formats for Quarto HTML documents and Revealjs slides, adding interactive code blocks and exercises for R and Python\n\n\nqreacto\nRun standalone React components in your project\n\n\nregurgitate\nAutomatic Code Appendix containing all shown code with an option to include results or group by language\n\n\nshinylive\nThis extension lets you embed Shinylive applications in a Quarto document.\n\n\nwebr\nEmbed WebR in HTML documents to enable interactive R code cells without the need for an R server\n\n\n\n\n\nTeaching\n\nTeaching\n\n\nName\nDescription\n\n\n\n\nassign\nA Quarto Extension for educators writing assignments by combining instruction and solution authoring (Note: Some if this functionality is built-in to Quarto through Conditional Content)\n\n\nhoneypot\nAdd hidden instructions to HTML homework assignments to help detect cheating by unauthorized LLM usage\n\n\nquizdown\nAdd an interactive quiz into your HTML document\n\n\n\n\n\nGeneral Utility\n\nGeneral Utility\n\n\nName\nDescription\n\n\n\n\nlinkate\nAutomatically collect all URLs in a document and place them at the end under a “Links” section\n\n\nmolstar\nShortcode to embed proteins and trajectories with Mol*\n\n\nopen-social-comments\nEnables adding Bluesky or Mastodon/Fediverse powered comments to posts and articles\n\n\nunsplash\nShortcode to use Unsplash images within documents\n\n\n\n\n\nMath/LaTeX\n\nMath/LaTeX\n\n\nName\nDescription\n\n\n\n\nbibentry\nA Quarto extension that replicates LaTeX’s \\bibentry command functionality. It allows you to display full bibliography entries inline within your document text\n\n\ncallouty-theorem\nWraps theorems and proofs in callout blocks for better visual appeal\n\n\ncustom-amsthm-environments\nQuarto extension for defining custom amsthm environments\n\n\nimagify\nConvert embedded LaTeX to images and use .tex/.tikz files as image sources\n\n\nlatex-environment\nOutput divs as custom LaTeX environments\n\n\ntikz\nA filter that renders PGF/TikZ diagrams in HTML as SVG\n\n\ntypst-math\nChanges math block syntax from LaTeX to Typst math\n\n\n\n\nPresentations\n\nspeakernotes",
+    "crumbs": [
+      "Week 3",
+      "Useful Extensions"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto Faculty Mentoring Network",
+    "section": "",
+    "text": "Welcome to the Quarto Faculty Mentoring Network website!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "authoring_code.html",
+    "href": "authoring_code.html",
+    "title": "Authoring with Code",
+    "section": "",
+    "text": "RStudio has a built-in connection to GitHub’s Copilot. Go to Tools &gt; Global Options &gt; Code &gt; Copilot to enable it.\n\n\nDiagrams",
+    "crumbs": [
+      "Week 3",
+      "Authoring with Code"
+    ]
+  },
+  {
+    "objectID": "authoring_code.html#use-copilot-to-create-a-mermaid-diagram",
+    "href": "authoring_code.html#use-copilot-to-create-a-mermaid-diagram",
+    "title": "Authoring with Code",
+    "section": "",
+    "text": "Diagrams",
+    "crumbs": [
+      "Week 3",
+      "Authoring with Code"
+    ]
+  }
+]
