@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Quarto Faculty Mentoring Network"
+  reader-mode: true
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - href: index.qmd
+        text: Home
+      - section: "Week 3"
+        contents:
+          - authoring_code.qmd
+          - extensions.qmd
+      - about.qmd
+
+format:
+  html:
+    respect-user-color-scheme: true
+    theme:
+      dark: darkly
+      light: flatly
+    css: styles.css
+    toc: true
+
+
+

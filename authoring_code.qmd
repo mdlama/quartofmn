@@ -1,0 +1,99 @@
+---
+title: "Authoring with Code"
+message: FALSE
+warning: FALSE
+format:
+  html:
+    df-print: paged
+    lightbox: auto
+---
+
+# GitHub Copilot
+
+RStudio has a built-in connection to GitHub's Copilot. Go to Tools \> Global Options \> Code \> Copilot to enable it.
+
+## Use Copilot to create a Mermaid diagram
+
+[Diagrams](https://quarto.org/docs/authoring/diagrams.html)
+
+# Data Frames
+
+A great way to display data frames is by using `df-print: paged` in the YAML. 
+
+```yaml
+---
+title: "Document"
+format: 
+   html:
+     df-print: paged
+---
+```
+
+For more details, see the [Quarto documentation](https://quarto.org/docs/computations/r.html#data-frames).
+
+Here's an example with the Palmer Penguins dataset:
+
+```{r}
+#| message: FALSE
+library(palmerpenguins)
+penguins
+```
+
+For more advanced tables, including search and filtering, see the [DT (DataTables) package](https://rstudio.github.io/DT/).
+
+# Code output locations
+
+A very useful feature of Quarto is the ability to control where code output appears. This can be used to create a variety of different layouts and formats. A particularly useful option is to place figures in the margin, which can be done using the `column: margin` option in the code chunk.
+
+```{r}
+#| echo: fenced
+#| label: fig-penguins
+#| fig-cap: "Penguin bill length vs. body mass"
+#| column: margin
+
+library(ggplot2)
+ggplot(penguins, aes(x = bill_length_mm, y = body_mass_g, color = species)) + 
+  geom_point() +
+  geom_smooth() +
+  theme(legend.position = 'bottom')
+```
+
+For more details, see [Margin Content](https://quarto.org/docs/authoring/article-layout.html#margin-content) in the Quarto documentation.
+
+# Lightbox figures
+
+Figures in the margins might be difficult to read, but you can use the `lightbox: auto` option in the YAML to make them clickable and viewable in a larger format. Click on the figure in the margin to see this in action.
+
+```yaml
+---
+lightbox: auto
+---
+```
+
+See the [Lightbox Figures](https://quarto.org/docs/output-formats/html-lightbox-figures.html) section of the Quarto documentation for more details.
+
+# Code Annotation
+
+```{r}
+#| echo: fenced
+library(tidyverse)
+library(palmerpenguins)
+penguins |>                                      # <1>
+  mutate(                                        # <2>
+    bill_ratio = bill_depth_mm / bill_length_mm, # <2>
+    bill_area  = bill_depth_mm * bill_length_mm  # <2>
+  )                                              # <2>
+```
+
+1. Take `penguins`, and then,
+2. add new columns for the bill ratio and bill area.
+
+See [Code Annotation](https://quarto.org/docs/authoring/code-annotation.html) for more details.
+
+# Code Listings
+
+[Code Listings](https://quarto.org/docs/authoring/cross-references.html#code-listings)
+
+# Conditional Content
+
+[Conditional Content](https://quarto.org/docs/authoring/conditional.html)

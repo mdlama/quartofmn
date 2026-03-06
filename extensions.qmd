@@ -1,0 +1,72 @@
+---
+title: "Useful Extensions"
+---
+
+# HTML
+
+| Name | Description |
+|:------------------------|:----------------------------------------------|
+| [bluesky-comments](https://github.com/quarto-ext/bluesky-comments) | Quarto Shortcode Extension to Embed Comments from Bluesky and add Bluesky-powered comment sections for websites and HTML outputs |
+| [elevator](https://github.com/mcanouil/quarto-elevator) | Shortcode for using [Elevator.js](https://tholman.com/elevator.js/) in HTML documents |
+| [embedio](https://github.com/coatless-quarto/embedio) | Variety of shortcodes for including files and content in HTML documents |
+| [lightbox](https://github.com/quarto-ext/lightbox) | Create [lightbox](https://biati-digital.github.io/glightbox/) treatments for images in your HTML documents (see also the [built-in](https://quarto.org/docs/output-formats/html-lightbox-figures.html) functionality) |
+| [modal](https://github.com/mcanouil/quarto-modal) | A Quarto extension providing a simple way to create Bootstrap modals in your HTML documents |
+| [nutshell](https://github.com/schochastics/quarto-nutshell) | Embed [Nutshell](https://ncase.me/nutshell/) expandable explanations in HTML documents |
+| [remember](https://github.com/mcanouil/quarto-remember) | An extension for Quarto to save and restore navigation position across page visits for both HTML documents and Reveal.js presentations |
+| [social-embeds](https://github.com/sellorm/quarto-social-embeds) | Embed content from across the web into HTML documents using a shortcode |
+| [social-share](https://github.com/schochastics/quarto-social-share) | Add buttons to share articles on various social media platforms |
+
+: HTML
+
+# Coding
+
+| Name | Description |
+|:------------------------|:----------------------------------------------|
+| [code-appendix](https://github.com/cl-roberts/code-appendix) | A lua filter to auto-generate an appendix from code chunks |
+| [output-styling](https://github.com/andrewheiss/quarto-output-styling) | Style computational output, errors, warnings, and messages in HTML documents |
+| [pyodide](https://github.com/coatless-quarto/pyodide) | Embed [Pyodide](https://pyodide.org/en/stable/) in HTML documents to enable interactive Python code cells without the need for a Python server |
+| [quarto-live](https://r-wasm.github.io/quarto-live/) | WebAssembly powered ‘live’ formats for Quarto HTML documents and Revealjs slides, adding interactive code blocks and exercises for R and Python |
+| [qreacto](https://github.com/clearmatics/qreacto) | Run standalone React components in your project |
+| [regurgitate](https://github.com/coatless-quarto/regurgitate) | Automatic Code Appendix containing all shown code with an option to include results or group by language |
+| [shinylive](https://github.com/quarto-ext/shinylive) | This extension lets you embed [Shinylive](https://shiny.rstudio.com/py/docs/shinylive.html) applications in a Quarto document. |
+| [webr](https://github.com/coatless/quarto-webr) | Embed [WebR](https://docs.r-wasm.org/webr/latest/) in HTML documents to enable interactive R code cells without the need for an R server |
+
+: Coding
+
+# Teaching
+
+| Name | Description |
+|:------------------------|:----------------------------------------------|
+| [assign](https://github.com/coatless-quarto/assign) | A Quarto Extension for educators writing assignments by combining instruction and solution authoring (Note: Some if this functionality is built-in to Quarto through [Conditional Content](https://quarto.org/docs/authoring/conditional.html)) |
+| [honeypot](https://github.com/jmgirard/honeypot) | Add hidden instructions to HTML homework assignments to help detect cheating by unauthorized LLM usage |
+| [quizdown](https://github.com/parmsam/quarto-quizdown) | Add an interactive quiz into your HTML document |
+
+: Teaching
+
+# General Utility
+
+| Name | Description |
+|:------------------------|:----------------------------------------------|
+| [linkate](https://github.com/coatless-quarto/linkate) | Automatically collect all URLs in a document and place them at the end under a “Links” section |
+| [molstar](https://github.com/jmbuhr/quarto-molstar) | Shortcode to embed proteins and trajectories with [Mol\*](https://molstar.org/) |
+| [open-social-comments](https://github.com/AndreasThinks/quarto-open-social-comments) | Enables adding Bluesky or Mastodon/Fediverse powered comments to posts and articles |
+| [unsplash](https://github.com/dragonstyle/unsplash) | Shortcode to use Unsplash images within documents |
+
+: General Utility
+
+# Math/LaTeX
+
+| Name | Description |
+|:------------------------|:----------------------------------------------|
+| [bibentry](https://github.com/fredguth/bibentry) | A Quarto extension that replicates LaTeX’s `\bibentry` command functionality. It allows you to display full bibliography entries inline within your document text |
+| [callouty-theorem](https://github.com/sun123zxy/quarto-callouty-theorem) | Wraps theorems and proofs in callout blocks for better visual appeal |
+| [custom-amsthm-environments](https://github.com/MateusMolina/custom-amsthm-environments) | Quarto extension for defining custom amsthm environments |
+| [imagify](https://github.com/dialoa/imagify) | Convert embedded LaTeX to images and use .tex/.tikz files as image sources |
+| [latex-environment](https://github.com/quarto-ext/latex-environment) | Output divs as custom LaTeX environments |
+| [tikz](https://github.com/danmackinlay/quarto_tikz) | A filter that renders [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ) diagrams in HTML as SVG |
+| [typst-math](https://github.com/sverrirarnors/typst-math) | Changes math block syntax from LaTeX to Typst math |
+
+: Math/LaTeX
+
+-   Presentations
+    -   [speakernotes](https://github.com/pagiraud/speakernotes)
