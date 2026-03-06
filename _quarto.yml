@@ -4,6 +4,8 @@ project:
 website:
   title: "Quarto Faculty Mentoring Network"
   reader-mode: true
+  comments:
+    hypothesis: true
   sidebar:
     style: "docked"
     search: true
