@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quarto Faculty Mentoring Network</title>
+<title>Interactives – Quarto Faculty Mentoring Network</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -259,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./interactives.html">Week 4</a></li><li class="breadcrumb-item"><a href="./interactives.html">Interactives</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -294,7 +294,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -338,7 +338,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./interactives.html" class="sidebar-item-text sidebar-link">
+  <a href="./interactives.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Interactives</span></a>
   </div>
 </li>
@@ -361,16 +361,29 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#webassembly" id="toc-webassembly" class="nav-link active" data-scroll-target="#webassembly">WebAssembly</a></li>
+  <li><a href="#python-and-r-in-the-browser" id="toc-python-and-r-in-the-browser" class="nav-link" data-scroll-target="#python-and-r-in-the-browser">Python and R in the browser</a>
+  <ul class="collapse">
+  <li><a href="#pyodide-for-python" id="toc-pyodide-for-python" class="nav-link" data-scroll-target="#pyodide-for-python">Pyodide for Python</a></li>
+  <li><a href="#webr-for-r" id="toc-webr-for-r" class="nav-link" data-scroll-target="#webr-for-r">WebR for R</a></li>
+  </ul></li>
+  <li><a href="#quarto-live" id="toc-quarto-live" class="nav-link" data-scroll-target="#quarto-live">Quarto Live</a></li>
+  <li><a href="#creating-web-apps" id="toc-creating-web-apps" class="nav-link" data-scroll-target="#creating-web-apps">Creating web apps</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./interactives.html">Week 4</a></li><li class="breadcrumb-item"><a href="./interactives.html">Interactives</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Quarto Faculty Mentoring Network</h1>
+<h1 class="title">Interactives</h1>
 </div>
 
 
@@ -387,10 +400,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to the Quarto Faculty Mentoring Network website!</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<section id="webassembly" class="level1">
+<h1>WebAssembly</h1>
+<p><a href="https://webassembly.org/">WebAssembly</a> (Wasm) is a binary instruction format for a stack-based virtual machine. It is designed to be a portable target for the compilation of high-level languages like C, C++, and Rust, enabling them to run on the web at near-native speed.</p>
+</section>
+<section id="python-and-r-in-the-browser" class="level1">
+<h1>Python and R in the browser</h1>
+<p>In order to incorporate interactive Python and R code in a web page, we can use WebAssembly to run the respective runtimes directly in the browser. At this low-level stage, however, one must use JavaScript to interact with the WebAssembly modules, which can be quite complex and cumbersome. Fortunately, there are higher-level projects that abstract away the complexities of WebAssembly and provide a more user-friendly interface for running Python and R code in the browser. For now, we introduce two such projects: Pyodide for Python and WebR for R.</p>
+<section id="pyodide-for-python" class="level2">
+<h2 class="anchored" data-anchor-id="pyodide-for-python">Pyodide for Python</h2>
+<p><a href="https://pyodide.org/">Pyodide</a> is a project that brings the Python runtime to the browser using WebAssembly. It allows you to run Python code in the browser, making it possible to create interactive Python applications without needing a server.</p>
+</section>
+<section id="webr-for-r" class="level2">
+<h2 class="anchored" data-anchor-id="webr-for-r">WebR for R</h2>
+<p><a href="https://docs.r-wasm.org/webr/latest/">WebR</a> is a similar project that brings the R programming language to the browser using WebAssembly. It allows you to run R code in the browser, enabling interactive R applications without the need for a server.</p>
+</section>
+</section>
+<section id="quarto-live" class="level1">
+<h1>Quarto Live</h1>
+<p>But what if you don’t know JavaScript? <a href="https://r-wasm.github.io/quarto-live/">Quarto Live</a> is a new feature in Quarto that allows you to create interactive documents using Python and R without needing to write any JavaScript. It uses Pyodide and WebR under the hood, providing a simple interface for creating interactive code chunks.</p>
+</section>
+<section id="creating-web-apps" class="level1">
+<h1>Creating web apps</h1>
+<p><a href="https://posit-dev.github.io/r-shinylive/">Shinylive</a> is a project that allows you to create interactive web applications using R and Shiny, all running in the browser using WebAssembly.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

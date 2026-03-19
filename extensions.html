@@ -298,6 +298,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./authoring.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 2</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
@@ -317,6 +323,29 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./extensions.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Useful Extensions</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 4</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./interactives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Interactives</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quarto_live.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quarto Live</span></a>
   </div>
 </li>
       </ul>
@@ -376,44 +405,54 @@ ul.task-list li input[type="checkbox"] {
 <tr class="header">
 <th style="text-align: left;">Name</th>
 <th style="text-align: left;">Description</th>
+<th>Example</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/quarto-ext/bluesky-comments">bluesky-comments</a></td>
 <td style="text-align: left;">Quarto Shortcode Extension to Embed Comments from Bluesky and add Bluesky-powered comment sections for websites and HTML outputs</td>
+<td><a href="https://quarto-ext.github.io/bluesky-comments/examples.html">Link</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://github.com/mcanouil/quarto-elevator">elevator</a></td>
 <td style="text-align: left;">Shortcode for using <a href="https://tholman.com/elevator.js/">Elevator.js</a> in HTML documents</td>
+<td><a href="https://tholman.com/elevator.js/">Link</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/coatless-quarto/embedio">embedio</a></td>
 <td style="text-align: left;">Variety of shortcodes for including files and content in HTML documents</td>
+<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://github.com/quarto-ext/lightbox">lightbox</a></td>
 <td style="text-align: left;">Create <a href="https://biati-digital.github.io/glightbox/">lightbox</a> treatments for images in your HTML documents (see also the <a href="https://quarto.org/docs/output-formats/html-lightbox-figures.html">built-in</a> functionality)</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/mcanouil/quarto-modal">modal</a></td>
 <td style="text-align: left;">A Quarto extension providing a simple way to create Bootstrap modals in your HTML documents</td>
+<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://github.com/schochastics/quarto-nutshell">nutshell</a></td>
 <td style="text-align: left;">Embed <a href="https://ncase.me/nutshell/">Nutshell</a> expandable explanations in HTML documents</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/mcanouil/quarto-remember">remember</a></td>
 <td style="text-align: left;">An extension for Quarto to save and restore navigation position across page visits for both HTML documents and Reveal.js presentations</td>
+<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://github.com/sellorm/quarto-social-embeds">social-embeds</a></td>
 <td style="text-align: left;">Embed content from across the web into HTML documents using a shortcode</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/schochastics/quarto-social-share">social-share</a></td>
 <td style="text-align: left;">Add buttons to share articles on various social media platforms</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -985,6 +1024,38 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="dark">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      if (authorPrefersDark) {
+          [baseTheme, altTheme] = [altTheme, baseTheme];
+      }
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "mdlama/quartofmn";
+    script.dataset.repoId = "R_kgDORgEd_g";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "DIC_kwDORgEd_s4C4vjc";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 
 
