@@ -1,20 +1,21 @@
 ---
 title: "Useful Extensions"
+format: html
 ---
 
 # HTML
 
-| Name | Description |
-|:------------------------|:----------------------------------------------|
-| [bluesky-comments](https://github.com/quarto-ext/bluesky-comments) | Quarto Shortcode Extension to Embed Comments from Bluesky and add Bluesky-powered comment sections for websites and HTML outputs |
-| [elevator](https://github.com/mcanouil/quarto-elevator) | Shortcode for using [Elevator.js](https://tholman.com/elevator.js/) in HTML documents |
-| [embedio](https://github.com/coatless-quarto/embedio) | Variety of shortcodes for including files and content in HTML documents |
-| [lightbox](https://github.com/quarto-ext/lightbox) | Create [lightbox](https://biati-digital.github.io/glightbox/) treatments for images in your HTML documents (see also the [built-in](https://quarto.org/docs/output-formats/html-lightbox-figures.html) functionality) |
-| [modal](https://github.com/mcanouil/quarto-modal) | A Quarto extension providing a simple way to create Bootstrap modals in your HTML documents |
-| [nutshell](https://github.com/schochastics/quarto-nutshell) | Embed [Nutshell](https://ncase.me/nutshell/) expandable explanations in HTML documents |
-| [remember](https://github.com/mcanouil/quarto-remember) | An extension for Quarto to save and restore navigation position across page visits for both HTML documents and Reveal.js presentations |
-| [social-embeds](https://github.com/sellorm/quarto-social-embeds) | Embed content from across the web into HTML documents using a shortcode |
-| [social-share](https://github.com/schochastics/quarto-social-share) | Add buttons to share articles on various social media platforms |
+| Name | Description | Example |
+|:-------------------|:--------------------------------------|-------------|
+| [bluesky-comments](https://github.com/quarto-ext/bluesky-comments) | Quarto Shortcode Extension to Embed Comments from Bluesky and add Bluesky-powered comment sections for websites and HTML outputs | [Link](https://quarto-ext.github.io/bluesky-comments/examples.html) |
+| [elevator](https://github.com/mcanouil/quarto-elevator) | Shortcode for using [Elevator.js](https://tholman.com/elevator.js/) in HTML documents | [Link](https://tholman.com/elevator.js/) |
+| [embedio](https://github.com/coatless-quarto/embedio) | Variety of shortcodes for including files and content in HTML documents |  |
+| [lightbox](https://github.com/quarto-ext/lightbox) | Create [lightbox](https://biati-digital.github.io/glightbox/) treatments for images in your HTML documents (see also the [built-in](https://quarto.org/docs/output-formats/html-lightbox-figures.html) functionality) |  |
+| [modal](https://github.com/mcanouil/quarto-modal) | A Quarto extension providing a simple way to create Bootstrap modals in your HTML documents |  |
+| [nutshell](https://github.com/schochastics/quarto-nutshell) | Embed [Nutshell](https://ncase.me/nutshell/) expandable explanations in HTML documents |  |
+| [remember](https://github.com/mcanouil/quarto-remember) | An extension for Quarto to save and restore navigation position across page visits for both HTML documents and Reveal.js presentations |  |
+| [social-embeds](https://github.com/sellorm/quarto-social-embeds) | Embed content from across the web into HTML documents using a shortcode |  |
+| [social-share](https://github.com/schochastics/quarto-social-share) | Add buttons to share articles on various social media platforms |  |
 
 : HTML
 

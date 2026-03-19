@@ -1,0 +1,28 @@
+---
+title: "Interactives"
+format: html
+---
+
+# WebAssembly
+
+[WebAssembly](https://webassembly.org/) (Wasm) is a binary instruction format for a stack-based virtual machine. It is designed to be a portable target for the compilation of high-level languages like C, C++, and Rust, enabling them to run on the web at near-native speed.
+
+# Python and R in the browser
+
+In order to incorporate interactive Python and R code in a web page, we can use WebAssembly to run the respective runtimes directly in the browser. At this low-level stage, however, one must use JavaScript to interact with the WebAssembly modules, which can be quite complex and cumbersome. Fortunately, there are higher-level projects that abstract away the complexities of WebAssembly and provide a more user-friendly interface for running Python and R code in the browser. For now, we introduce two such projects: Pyodide for Python and WebR for R.
+
+## Pyodide for Python
+
+[Pyodide](https://pyodide.org/) is a project that brings the Python runtime to the browser using WebAssembly. It allows you to run Python code in the browser, making it possible to create interactive Python applications without needing a server.
+
+## WebR for R
+
+[WebR](https://docs.r-wasm.org/webr/latest/) is a similar project that brings the R programming language to the browser using WebAssembly. It allows you to run R code in the browser, enabling interactive R applications without the need for a server.
+
+# Quarto Live
+
+But what if you don't know JavaScript? [Quarto Live](https://r-wasm.github.io/quarto-live/) is a new feature in Quarto that allows you to create interactive documents using Python and R without needing to write any JavaScript. It uses Pyodide and WebR under the hood, providing a simple interface for creating interactive code chunks.
+
+# Creating web apps
+
+[Shinylive](https://posit-dev.github.io/r-shinylive/) is a project that allows you to create interactive web applications using R and Shiny, all running in the browser using WebAssembly.

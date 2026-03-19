@@ -1,11 +1,8 @@
 ---
 title: "Authoring with Code"
-message: FALSE
 warning: FALSE
-format:
-  html:
-    df-print: paged
-    lightbox: auto
+message: FALSE
+format: html
 ---
 
 # GitHub Copilot
@@ -15,6 +12,13 @@ RStudio has a built-in connection to GitHub's Copilot. Go to Tools \> Global Opt
 ## Use Copilot to create a Mermaid diagram
 
 [Diagrams](https://quarto.org/docs/authoring/diagrams.html)
+
+Create a food web with fox, rabbits, and grass.
+```{mermaid}
+graph TD
+    Grass --> Rabbits
+    Rabbits --> Fox
+```
 
 # Data Frames
 
@@ -85,7 +89,7 @@ penguins |>                                      # <1>
   )                                              # <2>
 ```
 
-1. Take `penguins`, and then,
+1. Take penguins, and then,
 2. add new columns for the bill ratio and bill area.
 
 See [Code Annotation](https://quarto.org/docs/authoring/code-annotation.html) for more details.

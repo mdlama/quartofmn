@@ -6,16 +6,24 @@ website:
   reader-mode: true
   comments:
     hypothesis: true
+    giscus:
+      repo: mdlama/quartofmn
   sidebar:
     style: "docked"
     search: true
     contents:
       - href: index.qmd
         text: Home
+      - href: authoring.qmd
+        text: Week 2
       - section: "Week 3"
         contents:
           - authoring_code.qmd
           - extensions.qmd
+      - section: "Week 4"
+        contents:
+          - interactives.qmd
+          - quarto_live.qmd
       - about.qmd
 
 format:
@@ -24,8 +32,16 @@ format:
     theme:
       dark: darkly
       light: flatly
+    lightbox: auto
+    df-print: paged
     css: styles.css
     toc: true
-
-
-
+  live-html:
+    respect-user-color-scheme: true
+    theme:
+      dark: darkly
+      light: flatly
+    lightbox: auto
+    df-print: paged
+    css: styles.css
+    toc: true

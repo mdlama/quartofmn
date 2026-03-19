@@ -1,0 +1,16 @@
+---
+title: "Authoring"
+format:
+  html:
+    axe: true
+---
+
+# HTML
+
+## Including additional formats
+
+When rendering to HTML documents, you can include links to other formats in the YAML header. This allows you to create multiple versions of the same document, each with a different output format. For example, you could create an HTML version for web viewing and a PDF version for printing. You can find more information about this feature in the [Quarto documentation](https://quarto.org/docs/output-formats/html-multi-format.html).
+
+## Accessibility checks
+
+[HTML Accessibility Checks](https://quarto.org/docs/output-formats/html-accessibility.html)

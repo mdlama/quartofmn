@@ -1,5 +1,6 @@
 ---
 title: "Quarto Faculty Mentoring Network"
+format: html
 ---
 
 Welcome to the Quarto Faculty Mentoring Network website!
