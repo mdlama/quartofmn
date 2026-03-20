@@ -1,140 +1,35 @@
 [
   {
-    "objectID": "extensions.html",
-    "href": "extensions.html",
-    "title": "Useful Extensions",
+    "objectID": "shinylive.html",
+    "href": "shinylive.html",
+    "title": "Shinylive",
     "section": "",
-    "text": "HTML\n\nHTML\n\n\nName\nDescription\nExample\n\n\n\n\nbluesky-comments\nQuarto Shortcode Extension to Embed Comments from Bluesky and add Bluesky-powered comment sections for websites and HTML outputs\nLink\n\n\nelevator\nShortcode for using Elevator.js in HTML documents\nLink\n\n\nembedio\nVariety of shortcodes for including files and content in HTML documents\n\n\n\nlightbox\nCreate lightbox treatments for images in your HTML documents (see also the built-in functionality)\n\n\n\nmodal\nA Quarto extension providing a simple way to create Bootstrap modals in your HTML documents\n\n\n\nnutshell\nEmbed Nutshell expandable explanations in HTML documents\n\n\n\nremember\nAn extension for Quarto to save and restore navigation position across page visits for both HTML documents and Reveal.js presentations\n\n\n\nsocial-embeds\nEmbed content from across the web into HTML documents using a shortcode\n\n\n\nsocial-share\nAdd buttons to share articles on various social media platforms\n\n\n\n\n\n\nCoding\n\nCoding\n\n\nName\nDescription\n\n\n\n\ncode-appendix\nA lua filter to auto-generate an appendix from code chunks\n\n\noutput-styling\nStyle computational output, errors, warnings, and messages in HTML documents\n\n\npyodide\nEmbed Pyodide in HTML documents to enable interactive Python code cells without the need for a Python server\n\n\nquarto-live\nWebAssembly powered ‘live’ formats for Quarto HTML documents and Revealjs slides, adding interactive code blocks and exercises for R and Python\n\n\nqreacto\nRun standalone React components in your project\n\n\nregurgitate\nAutomatic Code Appendix containing all shown code with an option to include results or group by language\n\n\nshinylive\nThis extension lets you embed Shinylive applications in a Quarto document.\n\n\nwebr\nEmbed WebR in HTML documents to enable interactive R code cells without the need for an R server\n\n\n\n\n\nTeaching\n\nTeaching\n\n\nName\nDescription\n\n\n\n\nassign\nA Quarto Extension for educators writing assignments by combining instruction and solution authoring (Note: Some if this functionality is built-in to Quarto through Conditional Content)\n\n\nhoneypot\nAdd hidden instructions to HTML homework assignments to help detect cheating by unauthorized LLM usage\n\n\nquizdown\nAdd an interactive quiz into your HTML document\n\n\n\n\n\nGeneral Utility\n\nGeneral Utility\n\n\nName\nDescription\n\n\n\n\nlinkate\nAutomatically collect all URLs in a document and place them at the end under a “Links” section\n\n\nmolstar\nShortcode to embed proteins and trajectories with Mol*\n\n\nopen-social-comments\nEnables adding Bluesky or Mastodon/Fediverse powered comments to posts and articles\n\n\nunsplash\nShortcode to use Unsplash images within documents\n\n\n\n\n\nMath/LaTeX\n\nMath/LaTeX\n\n\nName\nDescription\n\n\n\n\nbibentry\nA Quarto extension that replicates LaTeX’s \\bibentry command functionality. It allows you to display full bibliography entries inline within your document text\n\n\ncallouty-theorem\nWraps theorems and proofs in callout blocks for better visual appeal\n\n\ncustom-amsthm-environments\nQuarto extension for defining custom amsthm environments\n\n\nimagify\nConvert embedded LaTeX to images and use .tex/.tikz files as image sources\n\n\nlatex-environment\nOutput divs as custom LaTeX environments\n\n\ntikz\nA filter that renders PGF/TikZ diagrams in HTML as SVG\n\n\ntypst-math\nChanges math block syntax from LaTeX to Typst math\n\n\n\n\nPresentations\n\nspeakernotes",
-    "crumbs": [
-      "Week 3",
-      "Useful Extensions"
-    ]
-  },
-  {
-    "objectID": "authoring_code.html",
-    "href": "authoring_code.html",
-    "title": "Authoring with Code",
-    "section": "",
-    "text": "RStudio has a built-in connection to GitHub’s Copilot. Go to Tools &gt; Global Options &gt; Code &gt; Copilot to enable it.\n\n\nDiagrams\nCreate a food web with fox, rabbits, and grass.\n\n\n\n\n\ngraph TD\n    Grass --&gt; Rabbits\n    Rabbits --&gt; Fox",
-    "crumbs": [
-      "Week 3",
-      "Authoring with Code"
-    ]
-  },
-  {
-    "objectID": "authoring_code.html#use-copilot-to-create-a-mermaid-diagram",
-    "href": "authoring_code.html#use-copilot-to-create-a-mermaid-diagram",
-    "title": "Authoring with Code",
-    "section": "",
-    "text": "Diagrams\nCreate a food web with fox, rabbits, and grass.\n\n\n\n\n\ngraph TD\n    Grass --&gt; Rabbits\n    Rabbits --&gt; Fox",
-    "crumbs": [
-      "Week 3",
-      "Authoring with Code"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quarto Faculty Mentoring Network",
-    "section": "",
-    "text": "Welcome to the Quarto Faculty Mentoring Network website!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "authoring.html",
-    "href": "authoring.html",
-    "title": "Authoring",
-    "section": "",
-    "text": "When rendering to HTML documents, you can include links to other formats in the YAML header. This allows you to create multiple versions of the same document, each with a different output format. For example, you could create an HTML version for web viewing and a PDF version for printing. You can find more information about this feature in the Quarto documentation.\n\n\n\nHTML Accessibility Checks",
-    "crumbs": [
-      "Week 2"
-    ]
-  },
-  {
-    "objectID": "authoring.html#including-additional-formats",
-    "href": "authoring.html#including-additional-formats",
-    "title": "Authoring",
-    "section": "",
-    "text": "When rendering to HTML documents, you can include links to other formats in the YAML header. This allows you to create multiple versions of the same document, each with a different output format. For example, you could create an HTML version for web viewing and a PDF version for printing. You can find more information about this feature in the Quarto documentation.",
-    "crumbs": [
-      "Week 2"
-    ]
-  },
-  {
-    "objectID": "authoring.html#accessibility-checks",
-    "href": "authoring.html#accessibility-checks",
-    "title": "Authoring",
-    "section": "",
-    "text": "HTML Accessibility Checks",
-    "crumbs": [
-      "Week 2"
-    ]
-  },
-  {
-    "objectID": "quarto_live.html",
-    "href": "quarto_live.html",
-    "title": "Quarto Live",
-    "section": "",
-    "text": "Quarto Live Documentation",
+    "text": "Shinylive for Python (editor)\nShinylive for Python (GitHub/documentation)\n\n\n\nShinylive for R (editor)\nShinylive for R (GitHub)\nShinylive for R (documentation)",
     "crumbs": [
       "Week 4",
-      "Quarto Live"
+      "Shinylive"
     ]
   },
   {
-    "objectID": "quarto_live.html#packages",
-    "href": "quarto_live.html#packages",
-    "title": "Quarto Live",
-    "section": "Packages",
-    "text": "Packages\nFor example, to load packages, you can include the following in the YAML header:\n\nRPython\n\n\n---\nformat: live-html\nwebr:\n  packages:\n    - ggplot2\n    - dplyr\n---\n\n\n---\nformat: live-html\npyodide:\n  packages:\n    - matplotlib\n    - numpy\n    - seaborn\n---\n\n\n\nCheck out the Loading Packages Documentation for more information, including how to load from custom repositories.\n\n\n\n\n\n\nWarning\n\n\n\nIf you are combining R code blocks with WebR code blocks (or Python with pyodide), you will need to load packages in both places, as they run in separate environments. The R code blocks will not have access to packages loaded in WebR code blocks, and vice versa (similar for Python).\n\n\n\n\n\n\n\n\nWarning\n\n\n\nMake sure to check if an existing package is available in WebR before trying to load it, as not all R packages are currently supported. You can check the list of available packages. If this link takes too long to load, you can also use this searchable repository created by Bob Rudis.",
-    "crumbs": [
-      "Week 4",
-      "Quarto Live"
-    ]
-  },
-  {
-    "objectID": "quarto_live.html#files-and-data",
-    "href": "quarto_live.html#files-and-data",
-    "title": "Quarto Live",
-    "section": "Files and data",
-    "text": "Files and data\nFrom Quarto’s website:\n\nNormally webr and pyodide code blocks are executed in the reader’s web browser, and so resources local to your own machine are not available for use inside the WebAssembly environment. Instead, there is a Virtual Filesystem (VFS) made available that contains only the minimum required to run R or Python code.\n\nTo make additional resources available, you can use the resources option in the YAML header to specify files to be loaded into the VFS. This can include data files, images, or any other resources that your code blocks need to access. For example, if you have a data directory in your Quarto project with multiple datasets, you can include the following in the YAML header to make the entire directory available in the VFS:\n---\nformat: live-html\nresources:\n  - data\n---\nThen, you can access the files in the data directory from your code blocks using the path data/filename. For example, if you have a file called mydata.csv in the data directory, you can read it into a WebR code block like this:\n\nRPython\n\n\n```{webr}\nmydata &lt;- read.csv(\"data/mydata.csv\")\n```\n\n\n```{pyodide}\nimport pandas as pd\nmydata = pd.read_csv(\"data/mydata.csv\")\n```\n\n\n\nYou can find more information about this feature in the Loading Resources Documentation\n\n\n\n\n\n\nWarning\n\n\n\nJust like with loading packages, if you are combining R code blocks with WebR code blocks, you will need to load data in both places, as they run in separate environments. The R code blocks will not have access to data loaded in WebR code blocks, and vice versa.",
-    "crumbs": [
-      "Week 4",
-      "Quarto Live"
-    ]
-  },
-  {
-    "objectID": "quarto_live.html#shared-environments-across-code-blocks",
-    "href": "quarto_live.html#shared-environments-across-code-blocks",
-    "title": "Quarto Live",
-    "section": "Shared environments across code blocks",
-    "text": "Shared environments across code blocks\nSee the Managing environments documentation.",
-    "crumbs": [
-      "Week 4",
-      "Quarto Live"
-    ]
-  },
-  {
-    "objectID": "quarto_live.html#prettifying-interactive-exercises",
-    "href": "quarto_live.html#prettifying-interactive-exercises",
-    "title": "Quarto Live",
-    "section": "Prettifying interactive exercises",
-    "text": "Prettifying interactive exercises\n\n\n\n\n\n\nTipDefault aesthetics\n\n\n\nPlot a rectangle using geom_tile centered at (x,y) = (4, 7). Do not specify any other aesthetics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteHint 1\n\n\n\n\n\n1ggplot() +\n  geom_tile(___)\n\n1\n\nAdd the geom_tile geom and specify the aesthetics by using the aes() function and assigning it to the mapping argument of geom_tile.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteHint 2\n\n\n\n\n\n1ggplot() +\n2  geom_tile(mapping = aes(___))\n\n1\n\nAdd the geom_tile geom and specify the aesthetics by using the aes() function and assigning it to the mapping argument of geom_tile.\n\n2\n\nSpecify the x and y aesthetics as arguments to the aes() function, assigning them their appropriate values.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipSolution\n\n\n\n\n\n\n\nggplot() + #&lt;1&gt;\n  geom_tile(mapping = aes(x = 4, y = 7)) #&lt;2&gt;\n1ggplot() +\n2  geom_tile(mapping = aes(x = 4, y = 7))\n\n\n\n1\n\nAdd the geom_tile geom and specify the aesthetics by using the aes() function and assigning it to the mapping argument of geom_tile.\n\n2\n\nSpecify the x and y aesthetics as arguments to the aes() function, assigning them their appropriate values.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarkdown\n\n::: {.callout-tip title=\"Default aesthetics\"}\n*Plot a rectangle using* `geom_tile` *centered at (x,y) = (4, 7). Do not specify any other aesthetics.*\n\n\n```{webr}\n#| exercise: one-tile-ex-1\n#| autorun: FALSE\n\n```\n\n::: { .hint exercise=\"one-tile-ex-1\"}\n::: { .callout-note collapse=\"false\"}\n## Hint 1\n\n```{r}\nggplot() +       #&lt;1&gt;\n  geom_tile(___) #&lt;2&gt;\n```\n1. Add the `geom_tile` geom and specify the aesthetics by using the `aes()` function and assigning it to the `mapping` argument of `geom_tile`.\n\n:::\n:::\n\n::: { .hint exercise=\"one-tile-ex-1\"}\n::: { .callout-note collapse=\"false\"}\n## Hint 2\n\n```{r}\nggplot() + #&lt;1&gt;\n  geom_tile(mapping = aes(___)) #&lt;2&gt;\n```\n1. Add the `geom_tile` geom and specify the aesthetics by using the `aes()` function and assigning it to the `mapping` argument of `geom_tile`.\n2. Specify the x and y aesthetics as arguments to the `aes()` function, assigning them their appropriate values.\n:::\n:::\n\n::: { .solution exercise=\"one-tile-ex-1\"}\n::: { .callout-tip collapse=\"false\"}\n\n## Solution\n\n```{webr}\n#| exercise: one-tile-ex-1\n#| solution: TRUE\nggplot() + #&lt;1&gt;\n  geom_tile(mapping = aes(x = 4, y = 7)) #&lt;2&gt;\n```\n1. Add the `geom_tile` geom and specify the aesthetics by using the `aes()` function and assigning it to the `mapping` argument of `geom_tile`.\n2. Specify the x and y aesthetics as arguments to the `aes()` function, assigning them their appropriate values.\n\n```{webr}\n#| exercise: one-tile-ex-1\n#| check: TRUE\ngradethis::grade_this_code()\n```\n\n:::\n:::\n:::",
-    "crumbs": [
-      "Week 4",
-      "Quarto Live"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "shinylive.html#for-python",
+    "href": "shinylive.html#for-python",
+    "title": "Shinylive",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2",
+    "text": "Shinylive for Python (editor)\nShinylive for Python (GitHub/documentation)",
     "crumbs": [
-      "About"
+      "Week 4",
+      "Shinylive"
+    ]
+  },
+  {
+    "objectID": "shinylive.html#for-r",
+    "href": "shinylive.html#for-r",
+    "title": "Shinylive",
+    "section": "",
+    "text": "Shinylive for R (editor)\nShinylive for R (GitHub)\nShinylive for R (documentation)",
+    "crumbs": [
+      "Week 4",
+      "Shinylive"
     ]
   },
   {
@@ -168,6 +63,144 @@
     "crumbs": [
       "Week 4",
       "Interactives"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "quarto_live.html",
+    "href": "quarto_live.html",
+    "title": "Quarto Live",
+    "section": "",
+    "text": "Quarto Live Documentation",
+    "crumbs": [
+      "Week 4",
+      "Quarto Live"
+    ]
+  },
+  {
+    "objectID": "quarto_live.html#packages",
+    "href": "quarto_live.html#packages",
+    "title": "Quarto Live",
+    "section": "Packages",
+    "text": "Packages\nFor example, to load packages, you can include the following in the YAML header:\n\nRPython\n\n\n---\nformat: live-html\nwebr:\n  packages:\n    - ggplot2\n    - dplyr\n---\n\n\n---\nformat: live-html\npyodide:\n  packages:\n    - matplotlib\n    - numpy\n    - seaborn\n---\n\n\n\nCheck out the Loading Packages Documentation for more information, including how to load from custom repositories.\n\n\n\n\n\n\nWarningUsing both R and WebR code blocks\n\n\n\nIf you are combining R code blocks with WebR code blocks (or Python with pyodide), you will need to load packages in both places, as they run in separate environments. The R code blocks will not have access to packages loaded in WebR code blocks, and vice versa (similar for Python).\n\n\n\n\n\n\n\n\nWarningPackage availability in WebR\n\n\n\nMake sure to check if an existing package is available in WebR before trying to load it, as not all R packages are currently supported. You can check the list of available packages. If this link takes too long to load, you can also use this searchable repository created by Bob Rudis.",
+    "crumbs": [
+      "Week 4",
+      "Quarto Live"
+    ]
+  },
+  {
+    "objectID": "quarto_live.html#files-and-data",
+    "href": "quarto_live.html#files-and-data",
+    "title": "Quarto Live",
+    "section": "Files and data",
+    "text": "Files and data\nFrom Quarto’s website:\n\nNormally webr and pyodide code blocks are executed in the reader’s web browser, and so resources local to your own machine are not available for use inside the WebAssembly environment. Instead, there is a Virtual Filesystem (VFS) made available that contains only the minimum required to run R or Python code.\n\nTo make additional resources available, you can use the resources option in the YAML header to specify files to be loaded into the VFS. This can include data files, images, or any other resources that your code blocks need to access. For example, if you have a data directory in your Quarto project with multiple datasets, you can include the following in the YAML header to make the entire directory available in the VFS:\n---\nformat: live-html\nresources:\n  - data\n---\nThen, you can access the files in the data directory from your code blocks using the path data/filename. For example, if you have a file called mydata.csv in the data directory, you can read it into a WebR code block like this:\n\nRPython\n\n\n```{webr}\nmydata &lt;- read.csv(\"data/mydata.csv\")\n```\n\n\n```{pyodide}\nimport pandas as pd\nmydata = pd.read_csv(\"data/mydata.csv\")\n```\n\n\n\nYou can find more information about this feature in the Loading Resources Documentation\n\n\n\n\n\n\nWarningUsing both R and WebR code blocks\n\n\n\nJust like with loading packages, if you are combining R code blocks with WebR code blocks, you will need to load data in both places, as they run in separate environments. The R code blocks will not have access to data loaded in WebR code blocks, and vice versa.",
+    "crumbs": [
+      "Week 4",
+      "Quarto Live"
+    ]
+  },
+  {
+    "objectID": "quarto_live.html#shared-environments-across-code-blocks",
+    "href": "quarto_live.html#shared-environments-across-code-blocks",
+    "title": "Quarto Live",
+    "section": "Shared environments across code blocks",
+    "text": "Shared environments across code blocks\nSee the Managing environments documentation.",
+    "crumbs": [
+      "Week 4",
+      "Quarto Live"
+    ]
+  },
+  {
+    "objectID": "quarto_live.html#prettifying-interactive-exercises",
+    "href": "quarto_live.html#prettifying-interactive-exercises",
+    "title": "Quarto Live",
+    "section": "Prettifying interactive exercises",
+    "text": "Prettifying interactive exercises\n\n\n\n\n\n\nTipDefault aesthetics\n\n\n\nPlot a rectangle using geom_tile centered at (x,y) = (4, 7). Do not specify any other aesthetics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteHint 1\n\n\n\n\n\n1ggplot() +\n  geom_tile(___)\n\n1\n\nAdd the geom_tile geom and specify the aesthetics by using the aes() function and assigning it to the mapping argument of geom_tile.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteHint 2\n\n\n\n\n\n1ggplot() +\n2  geom_tile(mapping = aes(___))\n\n1\n\nAdd the geom_tile geom and specify the aesthetics by using the aes() function and assigning it to the mapping argument of geom_tile.\n\n2\n\nSpecify the x and y aesthetics as arguments to the aes() function, assigning them their appropriate values.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipSolution\n\n\n\n\n\n\n\nggplot() + #&lt;1&gt;\n  geom_tile(mapping = aes(x = 4, y = 7)) #&lt;2&gt;\n1ggplot() +\n2  geom_tile(mapping = aes(x = 4, y = 7))\n\n\n\n1\n\nAdd the geom_tile geom and specify the aesthetics by using the aes() function and assigning it to the mapping argument of geom_tile.\n\n2\n\nSpecify the x and y aesthetics as arguments to the aes() function, assigning them their appropriate values.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarkdown\n\n::: {.callout-tip title=\"Default aesthetics\"}\n*Plot a rectangle using* `geom_tile` *centered at (x,y) = (4, 7). Do not specify any other aesthetics.*\n\n\n```{webr}\n#| exercise: one-tile-ex-1\n#| autorun: FALSE\n\n```\n\n::: { .hint exercise=\"one-tile-ex-1\"}\n::: { .callout-note collapse=\"false\"}\n## Hint 1\n\n```{r}\nggplot() +       #&lt;1&gt;\n  geom_tile(___) #&lt;2&gt;\n```\n1. Add the `geom_tile` geom and specify the aesthetics by using the `aes()` function and assigning it to the `mapping` argument of `geom_tile`.\n\n:::\n:::\n\n::: { .hint exercise=\"one-tile-ex-1\"}\n::: { .callout-note collapse=\"false\"}\n## Hint 2\n\n```{r}\nggplot() + #&lt;1&gt;\n  geom_tile(mapping = aes(___)) #&lt;2&gt;\n```\n1. Add the `geom_tile` geom and specify the aesthetics by using the `aes()` function and assigning it to the `mapping` argument of `geom_tile`.\n2. Specify the x and y aesthetics as arguments to the `aes()` function, assigning them their appropriate values.\n:::\n:::\n\n::: { .solution exercise=\"one-tile-ex-1\"}\n::: { .callout-tip collapse=\"false\"}\n\n## Solution\n\n```{webr}\n#| exercise: one-tile-ex-1\n#| solution: TRUE\nggplot() + #&lt;1&gt;\n  geom_tile(mapping = aes(x = 4, y = 7)) #&lt;2&gt;\n```\n1. Add the `geom_tile` geom and specify the aesthetics by using the `aes()` function and assigning it to the `mapping` argument of `geom_tile`.\n2. Specify the x and y aesthetics as arguments to the `aes()` function, assigning them their appropriate values.\n\n```{webr}\n#| exercise: one-tile-ex-1\n#| check: TRUE\ngradethis::grade_this_code()\n```\n\n:::\n:::\n:::",
+    "crumbs": [
+      "Week 4",
+      "Quarto Live"
+    ]
+  },
+  {
+    "objectID": "authoring.html",
+    "href": "authoring.html",
+    "title": "Authoring",
+    "section": "",
+    "text": "When rendering to HTML documents, you can include links to other formats in the YAML header. This allows you to create multiple versions of the same document, each with a different output format. For example, you could create an HTML version for web viewing and a PDF version for printing. You can find more information about this feature in the Quarto documentation.\n\n\n\nHTML Accessibility Checks",
+    "crumbs": [
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "authoring.html#including-additional-formats",
+    "href": "authoring.html#including-additional-formats",
+    "title": "Authoring",
+    "section": "",
+    "text": "When rendering to HTML documents, you can include links to other formats in the YAML header. This allows you to create multiple versions of the same document, each with a different output format. For example, you could create an HTML version for web viewing and a PDF version for printing. You can find more information about this feature in the Quarto documentation.",
+    "crumbs": [
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "authoring.html#accessibility-checks",
+    "href": "authoring.html#accessibility-checks",
+    "title": "Authoring",
+    "section": "",
+    "text": "HTML Accessibility Checks",
+    "crumbs": [
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto Faculty Mentoring Network",
+    "section": "",
+    "text": "Welcome to the Quarto Faculty Mentoring Network website!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "authoring_code.html",
+    "href": "authoring_code.html",
+    "title": "Authoring with Code",
+    "section": "",
+    "text": "RStudio has a built-in connection to GitHub’s Copilot. Go to Tools &gt; Global Options &gt; Code &gt; Copilot to enable it.\n\n\nDiagrams\nCreate a food web with fox, rabbits, and grass.\n\n\n\n\n\ngraph TD\n    Grass --&gt; Rabbits\n    Rabbits --&gt; Fox",
+    "crumbs": [
+      "Week 3",
+      "Authoring with Code"
+    ]
+  },
+  {
+    "objectID": "authoring_code.html#use-copilot-to-create-a-mermaid-diagram",
+    "href": "authoring_code.html#use-copilot-to-create-a-mermaid-diagram",
+    "title": "Authoring with Code",
+    "section": "",
+    "text": "Diagrams\nCreate a food web with fox, rabbits, and grass.\n\n\n\n\n\ngraph TD\n    Grass --&gt; Rabbits\n    Rabbits --&gt; Fox",
+    "crumbs": [
+      "Week 3",
+      "Authoring with Code"
+    ]
+  },
+  {
+    "objectID": "extensions.html",
+    "href": "extensions.html",
+    "title": "Useful Extensions",
+    "section": "",
+    "text": "HTML\n\nHTML\n\n\nName\nDescription\nExample\n\n\n\n\nbluesky-comments\nQuarto Shortcode Extension to Embed Comments from Bluesky and add Bluesky-powered comment sections for websites and HTML outputs\nLink\n\n\nelevator\nShortcode for using Elevator.js in HTML documents\nLink\n\n\nembedio\nVariety of shortcodes for including files and content in HTML documents\n\n\n\nlightbox\nCreate lightbox treatments for images in your HTML documents (see also the built-in functionality)\n\n\n\nmodal\nA Quarto extension providing a simple way to create Bootstrap modals in your HTML documents\n\n\n\nnutshell\nEmbed Nutshell expandable explanations in HTML documents\n\n\n\nremember\nAn extension for Quarto to save and restore navigation position across page visits for both HTML documents and Reveal.js presentations\n\n\n\nsocial-embeds\nEmbed content from across the web into HTML documents using a shortcode\n\n\n\nsocial-share\nAdd buttons to share articles on various social media platforms\n\n\n\n\n\n\nCoding\n\nCoding\n\n\nName\nDescription\n\n\n\n\ncode-appendix\nA lua filter to auto-generate an appendix from code chunks\n\n\noutput-styling\nStyle computational output, errors, warnings, and messages in HTML documents\n\n\npyodide\nEmbed Pyodide in HTML documents to enable interactive Python code cells without the need for a Python server\n\n\nquarto-live\nWebAssembly powered ‘live’ formats for Quarto HTML documents and Revealjs slides, adding interactive code blocks and exercises for R and Python\n\n\nqreacto\nRun standalone React components in your project\n\n\nregurgitate\nAutomatic Code Appendix containing all shown code with an option to include results or group by language\n\n\nshinylive\nThis extension lets you embed Shinylive applications in a Quarto document.\n\n\nwebr\nEmbed WebR in HTML documents to enable interactive R code cells without the need for an R server\n\n\n\n\n\nTeaching\n\nTeaching\n\n\nName\nDescription\n\n\n\n\nassign\nA Quarto Extension for educators writing assignments by combining instruction and solution authoring (Note: Some if this functionality is built-in to Quarto through Conditional Content)\n\n\nhoneypot\nAdd hidden instructions to HTML homework assignments to help detect cheating by unauthorized LLM usage\n\n\nquizdown\nAdd an interactive quiz into your HTML document\n\n\n\n\n\nGeneral Utility\n\nGeneral Utility\n\n\nName\nDescription\n\n\n\n\nlinkate\nAutomatically collect all URLs in a document and place them at the end under a “Links” section\n\n\nmolstar\nShortcode to embed proteins and trajectories with Mol*\n\n\nopen-social-comments\nEnables adding Bluesky or Mastodon/Fediverse powered comments to posts and articles\n\n\nunsplash\nShortcode to use Unsplash images within documents\n\n\n\n\n\nMath/LaTeX\n\nMath/LaTeX\n\n\nName\nDescription\n\n\n\n\nbibentry\nA Quarto extension that replicates LaTeX’s \\bibentry command functionality. It allows you to display full bibliography entries inline within your document text\n\n\ncallouty-theorem\nWraps theorems and proofs in callout blocks for better visual appeal\n\n\ncustom-amsthm-environments\nQuarto extension for defining custom amsthm environments\n\n\nimagify\nConvert embedded LaTeX to images and use .tex/.tikz files as image sources\n\n\nlatex-environment\nOutput divs as custom LaTeX environments\n\n\ntikz\nA filter that renders PGF/TikZ diagrams in HTML as SVG\n\n\ntypst-math\nChanges math block syntax from LaTeX to Typst math\n\n\n\n\nPresentations\n\nspeakernotes",
+    "crumbs": [
+      "Week 3",
+      "Useful Extensions"
     ]
   }
 ]

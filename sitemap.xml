@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mdlama.github.io/quartofmn/extensions.html</loc>
-    <lastmod>2026-03-17T01:49:48.064Z</lastmod>
+    <loc>https://mdlama.github.io/quartofmn/shinylive.html</loc>
+    <lastmod>2026-03-20T01:26:49.202Z</lastmod>
   </url>
   <url>
-    <loc>https://mdlama.github.io/quartofmn/authoring_code.html</loc>
-    <lastmod>2026-03-17T01:53:00.693Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mdlama.github.io/quartofmn/index.html</loc>
-    <lastmod>2026-03-17T01:49:36.674Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mdlama.github.io/quartofmn/authoring.html</loc>
-    <lastmod>2026-03-19T02:12:20.076Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mdlama.github.io/quartofmn/quarto_live.html</loc>
-    <lastmod>2026-03-19T02:06:37.755Z</lastmod>
+    <loc>https://mdlama.github.io/quartofmn/interactives.html</loc>
+    <lastmod>2026-03-17T01:49:53.440Z</lastmod>
   </url>
   <url>
     <loc>https://mdlama.github.io/quartofmn/about.html</loc>
     <lastmod>2026-03-17T01:49:11.860Z</lastmod>
   </url>
   <url>
-    <loc>https://mdlama.github.io/quartofmn/interactives.html</loc>
-    <lastmod>2026-03-17T01:49:53.440Z</lastmod>
+    <loc>https://mdlama.github.io/quartofmn/quarto_live.html</loc>
+    <lastmod>2026-03-19T16:25:43.898Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mdlama.github.io/quartofmn/authoring.html</loc>
+    <lastmod>2026-03-19T02:12:20.076Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mdlama.github.io/quartofmn/index.html</loc>
+    <lastmod>2026-03-17T01:49:36.674Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mdlama.github.io/quartofmn/authoring_code.html</loc>
+    <lastmod>2026-03-17T01:53:00.693Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mdlama.github.io/quartofmn/extensions.html</loc>
+    <lastmod>2026-03-17T01:49:48.064Z</lastmod>
   </url>
 </urlset>
