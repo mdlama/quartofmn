@@ -89,11 +89,11 @@ pyodide:
 
 Check out the [Loading Packages Documentation](https://r-wasm.github.io/quarto-live/getting_started/packages.html) for more information, including how to load from custom repositories.
 
-::: callout-warning
+::: {.callout-warning title="Using both R and WebR code blocks"}
 If you are combining R code blocks with WebR code blocks (or Python with pyodide), you will need to load packages in both places, as they run in separate environments. The R code blocks will not have access to packages loaded in WebR code blocks, and vice versa (similar for Python).
 :::
 
-::: callout-warning
+::: {.callout-warning title="Package availability in WebR"}
 Make sure to check if an existing package is available in WebR before trying to load it, as not all R packages are currently supported. You can check the [list of available packages](https://repo.r-wasm.org/). If this link takes too long to load, you can also use [this searchable repository](https://rud.is/w/webr-pkgs/) created by Bob Rudis.
 :::
 
@@ -134,7 +134,7 @@ mydata = pd.read_csv("data/mydata.csv")
 
 You can find more information about this feature in the [Loading Resources Documentation](https://r-wasm.github.io/quarto-live/other/resources.html)
 
-::: callout-warning
+::: {.callout-warning title="Using both R and WebR code blocks"}
 Just like with loading packages, if you are combining R code blocks with WebR code blocks, you will need to load data in both places, as they run in separate environments. The R code blocks will not have access to data loaded in WebR code blocks, and vice versa.
 :::
 
