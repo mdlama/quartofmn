@@ -31,6 +31,7 @@ The documentation above doesn't include the specific format for embedding a Shin
 :::
 
 Additional link:
+
  - [coatless Quarto example](https://github.com/coatless-quarto/r-shinylive-demo)
 
 ```{shinylive-r}

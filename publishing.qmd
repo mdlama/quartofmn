@@ -1,0 +1,37 @@
+---
+title: "Publishing"
+format: html
+---
+
+See the [Publishing Basics](https://quarto.org/docs/publishing/) page on the Quarto website for detailed information on publishing. We will discuss some general concepts here for Posit Connect Cloud and GitHub Pages.
+
+# Posit Connect Cloud
+
+[Posit Connect Cloud](https://connect.posit.cloud/) is a secure, scalable, and fully managed publishing platform for R and Python content. It allows you to share your work with others, whether it's a Quarto document, Shiny app, a Jupyter notebook, or an R Markdown document. It essentially replaces lots of separate publishing websites with one -- [shinyapps.io](https://shinyapps.io) for Shiny apps, [rpubs.com](https://rpubs.com) for R Markdown documents, and [quartopub.com](https://quartopub.com/) for Quarto documents -- all can now be published on [https://connect.posit.cloud/](https://connect.posit.cloud/).
+
+Posit Connect Cloud has [multiple subscription plans](https://connect.posit.cloud/plans) for users, including a free plan that allows you to publish up to 5 "applications" that require a server (e.g. Shiny apps, Jupyter notebooks, R Markdown documents with runtime: shiny, etc.) and unlimited "static" content (e.g. Quarto or Quarto Live documents, Shinylive documents, or R Markdown documents without runtime: shiny, etc.). The paid plans allow you to publish more applications and include additional features such as custom domains and single sign-on.
+
+See the [Posit Connect Cloud documentation](https://quarto.org/docs/publishing/posit-connect-cloud.html) for detailed information on publishing to Posit Connect Cloud.
+
+::: {.callout-note}
+Publishing to Posit Connect Cloud is the easiest option and a great way for students to publish there work.
+:::
+
+::: {.callout-note}
+You can customize the URL of your published content on Posit Connect Cloud by going to the URL section of the document settings.
+:::
+
+## How to publish
+
+In the Terminal, navigate to the directory where your Quarto document is located and run the following command:
+```bash
+quarto publish posit-connect-cloud
+```
+
+# GitHub Pages
+
+GitHub Pages is a free hosting service provided by GitHub that allows you to publish static websites directly from a GitHub repository. You can use GitHub Pages to publish your Quarto documents as static websites.
+
+There are two main ways to publish to GitHub Pages: using the `gh-pages` branch or using the `docs` folder in the main branch. The `docs` folder method is simpler but has some limitations. In particular, your commits will include the generated HTML files, which can clutter your commit history. The `gh-pages` branch method keeps your source QMD files and generated files separate (source QMD files in the main branch and the rendered static website in the `gh-pages` branch), but it is more complicated since you have to create the `gh-pages` branch and push it to GitHub.
+
+See the [GitHub Pages documentation](https://quarto.org/docs/publishing/github-pages.html) for detailed information on publishing to GitHub Pages.

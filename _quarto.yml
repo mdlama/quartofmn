@@ -15,16 +15,18 @@ website:
       - href: index.qmd
         text: Home
       - href: authoring.qmd
-        text: Week 2
-      - section: "Week 3"
+        text: "Week 2: Authoring"
+      - section: "Week 3: Code and Extensions"
         contents:
           - authoring_code.qmd
           - extensions.qmd
-      - section: "Week 4"
+      - section: "Week 4: Interactive Documents"
         contents:
           - interactives.qmd
           - quarto_live.qmd
           - shinylive.qmd
+      - href: publishing.qmd
+        text: "Week 5: Publishing"
       - about.qmd
 
 format:
