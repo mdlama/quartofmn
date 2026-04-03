@@ -151,6 +151,16 @@
     ]
   },
   {
+    "objectID": "publishing.html#setting-up-git-and-github-for-a-project",
+    "href": "publishing.html#setting-up-git-and-github-for-a-project",
+    "title": "Publishing",
+    "section": "Setting up git and GitHub for a project",
+    "text": "Setting up git and GitHub for a project\ngit init\ngit add",
+    "crumbs": [
+      "Week 5: Publishing"
+    ]
+  },
+  {
     "objectID": "authoring.html",
     "href": "authoring.html",
     "title": "Authoring",

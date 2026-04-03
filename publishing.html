@@ -419,7 +419,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#how-to-publish" id="toc-how-to-publish" class="nav-link" data-scroll-target="#how-to-publish">How to publish</a></li>
   </ul></li>
-  <li><a href="#github-pages" id="toc-github-pages" class="nav-link" data-scroll-target="#github-pages">GitHub Pages</a></li>
+  <li><a href="#github-pages" id="toc-github-pages" class="nav-link" data-scroll-target="#github-pages">GitHub Pages</a>
+  <ul class="collapse">
+  <li><a href="#setting-up-git-and-github-for-a-project" id="toc-setting-up-git-and-github-for-a-project" class="nav-link" data-scroll-target="#setting-up-git-and-github-for-a-project">Setting up git and GitHub for a project</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -489,8 +492,13 @@ Note
 <p>GitHub Pages is a free hosting service provided by GitHub that allows you to publish static websites directly from a GitHub repository. You can use GitHub Pages to publish your Quarto documents as static websites.</p>
 <p>There are two main ways to publish to GitHub Pages: using the <code>gh-pages</code> branch or using the <code>docs</code> folder in the main branch. The <code>docs</code> folder method is simpler but has some limitations. In particular, your commits will include the generated HTML files, which can clutter your commit history. The <code>gh-pages</code> branch method keeps your source QMD files and generated files separate (source QMD files in the main branch and the rendered static website in the <code>gh-pages</code> branch), but it is more complicated since you have to create the <code>gh-pages</code> branch and push it to GitHub.</p>
 <p>See the <a href="https://quarto.org/docs/publishing/github-pages.html">GitHub Pages documentation</a> for detailed information on publishing to GitHub Pages.</p>
+<section id="setting-up-git-and-github-for-a-project" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-git-and-github-for-a-project">Setting up git and GitHub for a project</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
